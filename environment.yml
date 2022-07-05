@@ -3,6 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - protobuf<4
   - mlflow=1.14.1
   - ipython=7.21.0
   - notebook=6.2.0
@@ -12,6 +13,5 @@ dependencies:
   - matplotlib=3.3.4
   - pandas=1.2.3
   - git=2.30.2
-  - pip=20.3.3
-  - pip:
-      - wandb==0.10.31
+  - ipykernel
+  - wandb
